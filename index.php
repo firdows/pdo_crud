@@ -44,8 +44,8 @@ if($query->rowCount() > 0){ #rowCount เช็คจำนวนแถวที
            <td><?=$row['status']?></td>
            <td>
             <a href="view.php?id=<?=$row['id']?>">ดู</a> |
-            <a href="update.php?id=<?=$row['id']?>">แก้ไข</a> | 
-            <a href="#">ลบ</a>
+            <a href="update.php?id=<?=$row['id']?>">แก้ไข</a> |
+            <a href="delete.php?id=<?=$row['id']?>" onclick="return confirm('คุณแน่ใจที่จะลบมัน?');">ลบ</a>
            </td>
          </tr>
 <?php
