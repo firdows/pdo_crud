@@ -16,6 +16,8 @@ $db = $objDb->database;
     echo "Hello PDO";
 
      ?>
+     <br/>
+     <a href="create">สร้าง Member</a>
 
   </body>
 </html>
