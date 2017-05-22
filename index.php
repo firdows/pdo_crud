@@ -1,4 +1,10 @@
-<?php
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PDO & CRUD</title>
+  </head>
+  <body>
 
-echo "hello";
- ?>
+  </body>
+</html>
